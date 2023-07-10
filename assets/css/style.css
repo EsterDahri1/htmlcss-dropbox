@@ -26,11 +26,29 @@
     --db-popup: #F5F5F5;
 }
 
-/*Debug*/
-
-.debug header{
-    background-color: aquamarine;
+body{
+    font-family: 'Open Sans', sans-serif;
 }
+
+/*Utilities*/
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.py-5{
+    padding: 5px;
+}
+
+/*Debug*/
 
 .debug main{
     background-color: tomato;
@@ -43,7 +61,23 @@
 /*Header*/
 
 header{
-    height: 80px;
+    max-height: 70px;
+    background-color: var(--db-white);
+}
+
+.topleftnav a, .toprightnav a{
+    text-decoration: none;
+    color: var(--db-black);
+    font-size: 13px;
+    padding: 15px;
+}
+
+.btn1{
+    background-color: var(--db-btn);
+    color: var(--db-white);
+    border: none;
+    padding: 6px 13px;
+    font-size: 13px;
 }
 
 /*Main*/
