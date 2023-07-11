@@ -141,7 +141,7 @@ header{
 /*Footer*/
 
 footer{
-    height: 900px;
+    height: 400px;
     background-color: var(--db-black);
 }
 
@@ -183,6 +183,9 @@ footer span{
     padding-top: 30px;
 }
 
-select{
+#italian{
     border: none;
+    background-color: var(--db-black);
+    color: var(--db-white-50);
+    padding: 0 5px;
 }
