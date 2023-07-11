@@ -28,14 +28,20 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    min-width: 1440px;
 }
+
+/*Utilities*/
 
 .container{
     margin: auto;
     width: 80%;
+    max-width: 1170px;
 }
 
-/*Utilities*/
+p{
+    line-height: 1.5rem;
+}
 
 .d-flex{
     display: flex;
@@ -60,15 +66,16 @@ body{
 .pyb-50{
     padding-bottom: 50px;
 }
+
+.pyb-20{
+    padding-bottom: 20px;
+}
 /*Debug*/
 
 .debug main{
     background-color: tomato;
 }
 
-.debug footer{
-    background-color: violet;
-}
 
 /*Header*/
 
@@ -134,5 +141,48 @@ header{
 /*Footer*/
 
 footer{
-    height: 300px;
+    height: 900px;
+    background-color: var(--db-black);
+}
+
+.fUl{
+    padding-top: 50px;
+}
+
+.tbold{
+    color: var(--db-white);
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+footer ul{
+    list-style: none;
+    padding: 10px 0;
+}
+
+footer li{
+    color: var(--db-white);
+    font-size: 0.8rem;
+}
+
+.moreinfo{
+    padding: 5px 0;
+}
+
+footer hr{
+    color: var(--db-white);
+    width: 120px;
+    border: 1px solid #ffffff;
+}
+
+footer span{
+    color: var(--db-white-50);
+}
+
+.translation{
+    padding-top: 30px;
+}
+
+select{
+    border: none;
 }
