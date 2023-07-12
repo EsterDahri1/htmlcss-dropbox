@@ -102,6 +102,7 @@ header{
 #site_main{
     height: 100vh;
     overflow: auto;
+    background-color: var(--db-white);
 }
 
 #jumbotron{
@@ -116,7 +117,6 @@ header{
 #site_main .container{
     height: 700px;
     padding: 70px 0;
-    background-color: var(--db-white);
 }
 
 .btn2{
@@ -137,81 +137,7 @@ header{
     width: 850px;
 }
 
-.container-sm{
-    margin: auto;
-    width: 60%;
-    padding-top: 150px;
-    background-color: var(--db-white);
-}
 
-.container-sm h2{
-    font-size: 35px;
-    padding-bottom: 60px;
-}
-
-.fatturazione{
-    font-size: 13px;
-}
-
-.fm, .fann{
-    margin-right: 10px;
-    border-radius: 50%;
-    width: 16px;
-    height: 16px;
-    border: 2px solid #999;
-  }
-
-.fann{
-    margin-left: 50px;
-}
-
-.container-sm .row{
-    width: 100%;
-    padding: 20px 0;
-}
-
-.plan1, .plan2, .plan3{
-    width: calc(100%/3);
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--db-black);
-}
-
-.plan1 .card, .plan2 .card, .plan3 .card{
-    flex-direction: column;
-    align-items: center;
-}
-
-.hrhead{
-    color: var(--db-black);
-    width: 100%;
-    border: 1px solid var(--db-black);
-}
-
-.cardheader{
-    padding: 10px 0;
-}
-
-.cardmain h3{
-    padding: 1.5rem;
-}
-
-
-#partners .container-sm div:first-child{
-    min-width: 60%;
-}
-
-#partners img{
-    width: 400px;
-}
-
-#partners .container-sm div:last-child{
-    padding: 40px;
-}
-
-#partners a {
-    align-self: self-start;
-}
 /*Footer*/
 
 footer{
