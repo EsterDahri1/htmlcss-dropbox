@@ -105,11 +105,45 @@ p{
 .mbt-40{
     margin: 40px 0;
 }
+
+.bg-logo1{
+    background-color: var(--db-logo1);
+}
+
+.bg-logo2{
+    background-color: var(--db-logo2);
+}
+
+.bg-logo3{
+    background-color: var(--db-logo3);
+}
+
+.bg-logo4{
+    background-color: var(--db-logo4);
+}
+
+.bg-logo5{
+    background-color: var(--db-logo5);
+}
+.bg-logo6{
+    background-color: var(--db-logo6);
+}
+.bg-logo7{
+    background-color: var(--db-logo7);
+}
+.bg-logo8{
+    background-color: var(--db-logo8);
+}
+
+.bg-popup{
+    background-color: var(--db-popup);
+}
 /*Header*/
 
 header{
     max-height: 70px;
     background-color: var(--db-white);
+    position: relative;
 }
 
 .topleftnav a, .toprightnav a{
@@ -117,6 +151,12 @@ header{
     color: var(--db-black);
     font-size: 13px;
     padding: 15px;
+    position: sticky;
+}
+
+nav a:hover {
+    border-bottom: solid #0092cf;
+    padding: 18px 0px;
 }
 
 .btn1{
@@ -330,12 +370,41 @@ input[type='radio'] {
     font-size: 0.9rem;
     padding-top: 40px;
 }
+
 #operations h2{
     padding-bottom: 50px;
 }
 
 #operations{
     padding-bottom: 100px;
+}
+
+#teams .title{
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+#teams h2{
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+#teams .square{
+    width: calc(100%/3);
+    aspect-ratio: 1/1;
+}
+
+#teams .square-sm{
+    width: calc(100%/2);
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sinistra, .destra{
+    display: flex;
+    flex-wrap: wrap;
 }
 /*Footer*/
 
