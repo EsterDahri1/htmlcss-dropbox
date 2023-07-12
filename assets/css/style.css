@@ -276,6 +276,33 @@ input[type='radio'] {
 #plancolumn .right{
     margin-top: 10px;
 }
+
+#partner .imgpart{
+    width:60%;
+}
+
+#partner img{
+    width: 500px;
+}
+
+#partner .partdescr{
+    width: 40%;
+    padding-top: 40px;
+    
+}
+
+#partner p{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+#partner a{
+    text-decoration: none;
+    color: var(--db-black);
+    background-color: var(--db-white);
+    border: 1px solid rgba(0, 0, 0, 0.566);
+    padding: 10px;
+}
 /*Footer*/
 
 footer{
