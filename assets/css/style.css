@@ -31,6 +31,12 @@ body{
     min-width: 1440px;
 }
 
+/*Debug*/
+
+.debug #planrow{
+    background-color: var(--db-logo5);
+}
+
 /*Utilities*/
 
 .container{
@@ -72,14 +78,33 @@ p{
     padding-bottom: 50px;
 }
 
-.py-20{
+.p-20{
     padding: 20px;
+}
+
+.py-20{
+    padding: 0 20px;
 }
 
 .pyb-20{
     padding-bottom: 20px;
 }
 
+.mt-30{
+    margin-top: 30px;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+
+.mbt-30{
+    margin: 30px 0;
+}
+
+.mbt-40{
+    margin: 40px 0;
+}
 /*Header*/
 
 header{
@@ -159,6 +184,69 @@ input[type='radio'] {
     transform: scale(1.5); 
 }
 
+#planrow{
+    width:100%
+}
+
+#planrow .col{
+    width: calc(100%/3);
+    margin: 40px 0;
+    padding: 0 20px;
+}
+
+#planrow .cards{
+    border: 2px solid #DBDBDD;
+    flex-direction: column;
+    flex-direction:column;
+}
+
+.cardhead {
+    text-align: center;
+    border-bottom: 2px solid #DBDBDD;
+    padding: 10px;
+}
+
+.cardmain h3{
+    font-size: 1.35rem;
+}
+
+.cardhead span, .price{
+    font-size: 0.9rem;
+}
+
+.costfreq{
+    color: rgba(0, 0, 0, 0.7);
+    padding-top: 10px;
+}
+
+.cont-list1 ul, .cont-list2 ul{
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+.cont-list1 li{
+    padding: 10px 0;
+    line-height: 1;
+    font-size: 13px;
+}
+
+.cont-list1 a{
+    font-size: 13px;
+}
+
+.cont-list2 h4{
+    padding: 40px 20px 20px 20px;
+}
+
+.cont-list2 li{
+    font-size: 0.9rem;
+    line-height: 1.25;
+    padding: 20px;
+}
+
+.cont-list2 i{
+    padding-right: 5px;
+}
 
 /*Footer*/
 
