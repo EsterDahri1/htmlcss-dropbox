@@ -33,9 +33,9 @@ body{
 
 /*Debug*/
 
-.debug #planrow{
+/* .debug #planrow{
     background-color: var(--db-logo5);
-}
+} */
 
 /*Utilities*/
 
@@ -191,7 +191,7 @@ input[type='radio'] {
 #planrow .col{
     width: calc(100%/3);
     margin: 40px 0;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 #planrow .cards{
@@ -230,8 +230,8 @@ input[type='radio'] {
     font-size: 13px;
 }
 
-.cont-list1 a{
-    font-size: 13px;
+#c2a{
+    font-size: 0.9rem;
 }
 
 .cont-list2 h4{
