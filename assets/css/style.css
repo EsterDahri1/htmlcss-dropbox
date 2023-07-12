@@ -39,6 +39,11 @@ body{
     max-width: 1170px;
 }
 
+.container-sm{
+    margin: auto;
+    width: 60%;
+}
+
 p{
     line-height: 1.5rem;
 }
@@ -135,6 +140,23 @@ header{
 
 .card img{
     width: 850px;
+}
+
+#plans{
+    padding: 100px 0;
+}
+
+#plans h2{
+    padding: 50px 0;
+    font-size: 35px;
+}
+
+#fa{
+    margin-left: 40px;
+}
+
+input[type='radio'] { 
+    transform: scale(1.5); 
 }
 
 
