@@ -62,8 +62,16 @@ p{
     justify-content: space-between;
 }
 
+.space-evenly{
+    justify-content: space-evenly;
+}
+
 .align-items{
     align-items: center;
+}
+
+.f-column{
+    flex-direction: column;
 }
 
 .py-5{
@@ -76,6 +84,10 @@ p{
 
 .pyb-50{
     padding-bottom: 50px;
+}
+
+.pyb-12{
+    padding-bottom: 12px;
 }
 
 .p-20{
@@ -170,8 +182,6 @@ nav a:hover {
 /*Main*/
 
 #site_main{
-    height: 100vh;
-    overflow: auto;
     background-color: var(--db-white);
 }
 
@@ -207,13 +217,17 @@ nav a:hover {
     width: 850px;
 }
 
-#plans{
+#plans, #FAQS{
     padding: 100px 0;
 }
 
 #plans h2{
     padding: 50px 0;
     font-size: 35px;
+}
+
+#contact{
+    padding: 10px 60px;
 }
 
 #fa{
@@ -232,6 +246,8 @@ input[type='radio'] {
     width: calc(100%/3);
     margin: 40px 0;
     padding: 0 10px;
+    justify-content: stretch;
+    display: flex;
 }
 
 #planrow .cards{
@@ -402,6 +418,23 @@ input[type='radio'] {
     justify-content: center;
 }
 
+#teams .square-sm img{
+    filter:invert(1)
+}
+
+.centro{
+    padding: 40px;
+}
+
+.centro p, .centro .author{
+    font-size: 0.8rem;
+}
+
+.centro hr {
+    width: 120px;
+    border: 0.5px solid #34343452;
+}
+
 .sinistra, .destra{
     display: flex;
     flex-wrap: wrap;
@@ -421,6 +454,63 @@ footer{
     color: var(--db-white);
     font-size: 1rem;
     font-weight: 650;
+}
+
+#freetrial{
+    background-color: var(--db-logo6);
+}
+
+#freetrial .container-sm{
+    padding: 100px 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:50%;
+}
+
+#freetrial h2{
+    color: var(--db-business);
+    width: 50%;
+    font-size: 1.9rem;
+}
+
+#freetrial a{
+    text-decoration: none;
+    color: var(--db-black);
+    background-color: var(--db-white);
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+
+#FAQS .container-sm{
+    width:50%;
+}
+
+#FAQS h2{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.faq{
+    padding: 30px 20px;
+    border-top: 1px solid var(--db-popup);
+    border-bottom: 1px solid var(--db-popup);
+}
+
+.faq p {
+    display: none;
+    padding: 20px 0;
+}
+
+.faq:hover p{
+    display: block;
+}
+
+.faq i{
+    transition: 1s;
+}
+
+.faq:hover i {
+    transform: rotate(180deg);
 }
 
 footer ul{
